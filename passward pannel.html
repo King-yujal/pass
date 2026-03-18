@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+      <link rel="icon" type="image/x-icon" href="https://github.com/King-yujal/Yujal-search/blob/main/logotitlepic.png.png?raw=true">
+      
+       <style>
+
+  .search-size{
+    width: 500px;
+    height: 45px;
+     border-radius: 50px; 
+    padding: 5px 20px;
+
+}
+
+body{
+    text-align: center;
+}
+.center script{
+    text-align: center;
+}
+.search-button{
+    width: 80px;
+    height: 50px;
+     border-radius: 50px; 
+    padding: 10px 20px;
+}
+.pill-shape {
+    border-radius: 50px; 
+    padding: 10px 20px;
+  }
+  
+  
+    </style>
+</head>
+<body>
+ 
+    <img src="https://github.com/King-yujal/Yujal/blob/main/logotitlepic.png.png?raw=true">
+    </a>
+    <br>
+    
+<form class="search-container"></form>
+<form onsubmit="redirectToLink(); return false;">
+<form class="search-container">
+  <input class="search-size" autocorrect="on" class="pill-shape"  type="password" id="destination" name="destination" placeholder="Ring Master Pass" >
+ <form action="/submit-page" method="post"> <br>
+    <input id="myBtn" type="image" src="https://github.com/King-yujal/Yujal-search/blob/main/button.png?raw=true" class="search-button" >
+   
+
+  
+ </form>
+</button>
+</form>
+
+
+<script>
+
+     document.getElementById("myBtn").addEventListener("click", function() {
+        var url = document.getElementById("destination").value;
+        window.location.href = url; 
+    });
+
+  function redirectToLink() {
+    var input = document.getElementById('destination').value;
+    var targetURL = '';
+
+    
+    switch (input.toLowerCase()) {
+      case '905888':
+        targetURL = 'file:///D:/passward%20pannel%202.html';
+        break;
+         }
+
+    if (targetURL) {
+      window.location.href = targetURL;
+    }
+  }
+
+</script>
+</body>
+</html>
